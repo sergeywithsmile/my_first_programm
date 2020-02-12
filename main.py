@@ -1,12 +1,11 @@
-import csv  # подключение библиотеки csv для работы с файлами формата CSV
 import sys  # обеспечивает доступ к функии закрытия программы sys.exit()
 from mylist import DoubleList
 
 print('Вас приветствует программа для работы с файлами формата .CSV')  # приветствие
 
 # path_to_the_file_1 = input('Введите путь к файлу и его название\n'
-#                            '(Пример: D:\data_about_users_new.csv): ')  # переменная, содержащая путь к файлу
-path_to_the_file_1 = 'D:\Python\Serg\data_users.txt'
+#                            '(Пример: D:\data_about_users.txt): ')  # переменная, содержащая путь к файлу
+path_to_the_file_1 = 'D:\Python\data_users.txt'
 my_list = DoubleList()
 
 while True:
